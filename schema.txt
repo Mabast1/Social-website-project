@@ -1,0 +1,53 @@
+%% users
+  email_add
+  password
+  status
+  usersID
+
+
+
+%% users_info
+  usersID
+  users_info_ID
+  Fname
+  Lname
+  Nname
+  $gender
+  $bdate
+  $age
+
+%% profile_pics
+  pic_name
+  usersID
+  pic_label
+
+%% public_chat_msg
+   $UserID
+   message
+   pcmID
+
+%% users_post
+   postID
+   $UserID
+   users_post
+   date_posted
+
+%% post_status
+  postID
+  usersID
+   status
+
+%% post_comment
+  post_commentID
+  $UserID
+  comment
+  $Comment_date_time
+
+%% number_of_notification
+  usersID
+
+%%notifications
+  usersID
+  notificationID
+  postID
+  type
